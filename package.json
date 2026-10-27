@@ -1,0 +1,17 @@
+{
+  "name": "venom-fun-website",
+  "version": "1.0.0",
+  "description": "VENOM_FUN Minecraft Server Website with OG Minecraft aesthetic, 3D Schematics Studio, and Live Leaderboards",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm install && npm run build",
+    "vercel-build": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
